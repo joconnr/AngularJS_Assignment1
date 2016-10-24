@@ -1,10 +1,10 @@
-var app = angular.module("app", []);
+var app = angular.module("LunchCheck", []);
 
 'use strict';	
-app.controller('myCtrl', myCtrl);
+app.controller('LunchCheckController', LunchCheckController);
 	
-myCtrl.$inject = ['$scope'];	
-function myCtrl	($scope) {
+LunchCheckController.$inject = ['$scope'];	
+function LunchCheckController ($scope) {
 
 $scope.response = "";
 $scope.entries = "";
